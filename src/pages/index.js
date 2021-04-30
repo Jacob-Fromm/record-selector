@@ -10,7 +10,7 @@ import RecordSelector from "../components/RecordSelector"
 const IndexPage = () => {
   return(
   <Layout>
-    <Seo title="Home" />
+    <Seo title="RecordSelector" />
     <div className="homepage-container">
       <div className="hero-text">
         <h1>Hello, Daniel</h1>
