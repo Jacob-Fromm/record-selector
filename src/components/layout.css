@@ -25,11 +25,17 @@ body {
   height: 75vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 15vh;
 }
 
 .hero-text {
   text-align: left;
+}
+
+.records-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
 }
 article,
 aside,

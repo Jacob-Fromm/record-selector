@@ -4,17 +4,22 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import allRecords from '../data/records.json'
+import RecordSelector from "../components/RecordSelector"
 
-const IndexPage = () => (
+const IndexPage = () => {
+  return(
   <Layout>
     <Seo title="Home" />
     <div className="homepage-container">
       <div className="hero-text">
         <h1>Hello, Daniel</h1>
         <h2>Welcome to your personal record selection service.</h2>
+        <RecordSelector records={allRecords}/>
       </div>
     </div>
   </Layout>
-)
+  )
+}
 
 export default IndexPage
