@@ -16,7 +16,7 @@ export default function RecordSelector(props) {
         <div className="records-container">
             <h3>Today you should listen to...</h3>
             <h4><em>{currentRecord.name}</em> by {currentRecord.artist}</h4>
-            <button id="selection-button" onClick={clickHandler}>click for a different record</button>
+            <p id="selection-button" onClick={clickHandler}>click for a different record</p>
         </div>
     )
 }
