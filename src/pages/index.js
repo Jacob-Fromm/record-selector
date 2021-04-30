@@ -13,7 +13,7 @@ const IndexPage = () => {
     <Seo title="RecordSelector" />
     <div className="homepage-container">
       <div className="hero-text">
-        <h1>Hello, Daniel</h1>
+        <h1>Hey, Gary!</h1>
         <h2>Welcome to your personal record selection service.</h2>
         <RecordSelector records={allRecords}/>
       </div>

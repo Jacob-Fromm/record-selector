@@ -39,6 +39,23 @@ body {
   padding-top: 10vh;
 }
 
+.records-container h4{
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 #selection-button {
   width: 250px;
   min-width: 30vw;
