@@ -40,7 +40,7 @@ body {
 }
 
 .records-container h4{
-  animation-duration: 1s;
+  /* animation-duration: 1s;
   animation-name: slidein;
 }
 
@@ -53,7 +53,7 @@ body {
   to {
     margin-left: 0%;
     width: 100%;
-  }
+  } */
 }
 
 #selection-button {
